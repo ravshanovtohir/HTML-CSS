@@ -1,0 +1,38 @@
+* {
+    font-family: "Open Sans";
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bluebutton {
+    background: #00bafc;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    text-decoration: none;
+    padding: 11px 16px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+.bluebutton:hover {
+    background: #ffffff;
+    color: #00bafc;
+    border: 2px solid #00bafc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 1px;
+    overflow-x: hidden;
+}

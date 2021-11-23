@@ -1,0 +1,377 @@
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.boshi {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.img_1 {
+    padding: 0;
+    width: 58.11px;
+    height: 20px;
+    margin-right: 341.89px;
+}
+
+.boshiul {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.boshi>ul>li {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.boshi li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-bottom: 5px solid black;
+}
+
+.dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: #4c9e9e;
+}
+
+.ikki {
+    width: 1300px;
+    height: 418px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-top: 0;
+}
+
+.uch {
+    display: flex;
+    flex-direction: row;
+    gap: 172px;
+}
+
+.chap {
+    padding-top: 97px;
+    width: 470px;
+    height: 224px;
+    box-sizing: initial;
+}
+
+.chap h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.chap p {
+    margin-bottom: 23px;
+}
+
+.jossa {
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.xizmatlar {
+    width: 1300px;
+    height: 879px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xizmatlar h2 {
+    font-weight: bold;
+}
+
+.xizmatlar p {
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.xizmatlarr {
+    height: 576px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.xizmat {
+    width: 320px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.xizmat:hover {
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.xizmat:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.xizmat h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.xizmat p {
+    margin: 0;
+    padding: 0;
+}
+
+.xizmt {
+    width: 378px;
+    height: 64px;
+    margin: 48px 0;
+}
+
+.xizmatlar a:nth-child(1) {
+    margin-right: 16px;
+}
+
+.xizmatlar a:nth-child(2) {
+    color: #00BAFC;
+    text-decoration: underline;
+}
+
+.buyurtma {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 0px;
+    width: 1300px;
+    height: 1675.81px;
+}
+
+.buyurtma ul {
+    display: flex;
+    flex-direction: column;
+    gap: 48.8px;
+}
+
+.buyurtma h2 {
+    width: 262px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.buyur {
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.buyurtmali {
+    width: 832px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35.5px;
+}
+
+.buyurtmali div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buyurtmali:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.buyurtma a {
+    margin-top: 50px;
+}
+
+.zakaz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 100px;
+    width: 1300px;
+    height: 543px;
+    background: #00bafc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66px;
+    color: white;
+}
+
+.zakaz h2 {
+    width: 203px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.zakaz p {
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    width: 348px;
+    height: 304px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+form>label>input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 300px;
+    height: 56px;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+
+form>label>select {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 300px;
+    height: 56px;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+
+footer {
+    position: sticky;
+    height: 338px;
+    left: 0px;
+    right: 0px;
+    top: 3571px;
+    background: #191919;
+    color: white;
+    padding-left: 100px;
+    padding-top: 56px;
+}
+
+.tugash {
+    display: flex;
+    flex-direction: row;
+}
+
+.onbir {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.onbir p {
+    width: 320px;
+    height: 120px;
+}
+
+.darmayet li {
+    margin-bottom: 8px;
+}
+
+.darmayet li:nth-child(1) {
+    width: 143px;
+    height: 26px;
+    font-size: 20px;
+    line-height: 130%;
+    font-weight: bolder;
+    gap: 16px;
+    margin-bottom: 16px;
+    margin-right: 87px;
+}
+
+.ong li>a {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ong li:nth-child(1) {
+    width: 143px;
+    height: 26px;
+    font-size: 20px;
+    line-height: 130%;
+    font-weight: bolder;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.ong a {
+    text-decoration: none;
+    color: white;
+}
